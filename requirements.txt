@@ -1,0 +1,29 @@
+# Discord integration
+discord.py>=2.3.0
+discord-py-interactions>=5.0.0
+
+# AI and Machine Learning
+transformers>=4.30.0  # For text processing and embeddings
+torch>=2.0.0  # Required for transformers
+sentence-transformers>=2.2.0  # For generating embeddings
+numpy>=1.24.0  # Required for vector operations
+
+# Vector Database
+qdrant-client>=1.7.0  # For vector similarity search
+
+# Web Scraping
+beautifulsoup4>=4.12.0  # For HTML parsing
+requests>=2.31.0  # For HTTP requests
+aiohttp>=3.9.0  # For async HTTP requests
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variable management
+pydantic>=2.0.0  # For data validation
+asyncio>=3.4.3  # For async operations
+typing-extensions>=4.7.0  # For type hints
+
+# Optional but recommended
+pytest>=7.4.0  # For testing
+black>=23.0.0  # For code formatting
+flake8>=6.1.0  # For code linting
+mypy>=1.5.0  # For type checking
